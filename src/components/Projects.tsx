@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 // import temitope from "../public/temitope.jpeg";
 import { motion } from "framer-motion";
@@ -27,7 +28,7 @@ function Projects() {
         </div>
       </div>
       <div className="relative w-full scrollbar-thin flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20  scrollbar-track-gray-400/20 scrollbar-thumb-[#F7BA0A]/60 ">
-        <div className=" w-screen flex-shrink-0 flex snap-center flex-col space-y-5 items-center p-3 lg:p-20  justify-center md:p-44 h-screen">
+        <div className="mt-16 w-screen flex-shrink-0 flex snap-center flex-col space-y-5 items-center p-3 lg:p-20  justify-center md:p-44 h-screen">
           <div className="space-y-10 px-0 md:px-10 max-w-6xl font-Montserrat">
             <h4 className="text-xl text-center font-semibold">
               <span className="underline decoration-[#F7AB0A]/50 ">
@@ -41,6 +42,15 @@ function Projects() {
               details about the movie. I translated Figma designs into 100%
               functional web pages using Next.js and Tailwind.
             </p>
+
+            <div className="pt-5 lg:flex lg:gap-x-2 md:gap-x-6">
+              <Link href="https://movie-discovery-theta.vercel.app/">
+                <button className="HeroButtonClass text-white">Demo</button>
+              </Link>
+              <Link href="https://github.com/cybprom/movie-discovery">
+                <button className="HeroButtonClass text-white">Repo</button>
+              </Link>
+            </div>
           </div>
         </div>
 
@@ -67,6 +77,14 @@ function Projects() {
               Together, these technologies seamlessly combined to create a
               faithful representation of the original website.
             </p>
+            <div className="pt-5 lg:flex lg:gap-x-2 md:gap-x-6">
+              <Link href="https://kuda-delta.netlify.app">
+                <button className="HeroButtonClass text-white">Demo</button>
+              </Link>
+              <Link href="https://github.com/cybprom/Kuda">
+                <button className="HeroButtonClass text-white">Repo</button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
