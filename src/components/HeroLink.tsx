@@ -1,12 +1,10 @@
-import Link from 'next/link'
-import React from 'react'
+import Link from "next/link";
+import React from "react";
 
-type Props = {}
+type Props = {};
 
 const HeroLink = (props: Props) => {
-  return (
-    <Link href="#projects" > check out my work</Link>
-  )
-}
+  return <Link href="#projects"> check out my work</Link>;
+};
 
-export default HeroLink
+export default HeroLink;

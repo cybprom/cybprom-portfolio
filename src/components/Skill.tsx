@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { Skill } from "../../typings";
-import { urlFor } from "@/app/lib/ImageUrlBuilder";
+// import { urlFor } from "@/app/lib/ImageUrlBuilder";
 
 type Props = {
   skill: Skill;
@@ -13,7 +13,7 @@ function Skilltool({ skill }: Props) {
     <div className="group relative flex cursor-pointer">
       <motion.div className="rounded-full  h-20 w-20 lg:h-24 lg:w-24 filter group-hover:grayscale transition duration-300 ease-in-out">
         <Image
-          src={urlFor(skill?.image).url()}
+          src="/"
           className="h-full w-full  object-cover "
           alt="skillset"
           height={100}
