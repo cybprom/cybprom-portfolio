@@ -5,6 +5,7 @@ import React from "react";
 // import temitope from "../public/temitope.jpeg";
 import { motion } from "framer-motion";
 import { Project } from "../../typings";
+import { ArrowRightIcon } from "@heroicons/react/20/solid";
 // import { urlFor } from "@/app/lib/ImageUrlBuilder";
 
 type Props = { project: Project[] };
@@ -43,13 +44,25 @@ function Projects() {
               functional web pages using Next.js and Tailwind.
             </p>
 
-            <div className="pt-5 lg:flex lg:gap-x-2 md:gap-x-6">
-              <Link href="https://movie-discovery-theta.vercel.app/">
-                <button className="HeroButtonClass text-white">Demo</button>
-              </Link>
-              <Link href="https://github.com/cybprom/movie-discovery">
-                <button className="HeroButtonClass text-white">Repo</button>
-              </Link>
+            <div className="pt-5 flex justify-between ">
+              <div className="lg:flex lg:gap-x-2 md:gap-x-6">
+                <Link href="https://movie-discovery-theta.vercel.app/">
+                  <button className="HeroButtonClass text-white border-white">
+                    Demo
+                  </button>
+                </Link>
+                <Link href="https://github.com/cybprom/movie-discovery">
+                  <button className="HeroButtonClass text-white border-white">
+                    Repo
+                  </button>
+                </Link>
+              </div>
+              <div className="flex items-center justify-center">
+                <span className="font-bolc text-sm md:text-xl animate-pulse">
+                  Swipe
+                </span>{" "}
+                <ArrowRightIcon className="h-3 w-6" />
+              </div>
             </div>
           </div>
         </div>
@@ -77,13 +90,26 @@ function Projects() {
               Together, these technologies seamlessly combined to create a
               faithful representation of the original website.
             </p>
-            <div className="pt-5 lg:flex lg:gap-x-2 md:gap-x-6">
-              <Link href="https://kuda-delta.netlify.app">
-                <button className="HeroButtonClass text-white">Demo</button>
-              </Link>
-              <Link href="https://github.com/cybprom/Kuda">
-                <button className="HeroButtonClass text-white">Repo</button>
-              </Link>
+
+            <div className="pt-5 flex justify-between ">
+              <div className="lg:flex lg:gap-x-2 md:gap-x-6">
+                <Link href="https://kuda-delta.netlify.app">
+                  <button className="HeroButtonClass text-white border-white">
+                    Demo
+                  </button>
+                </Link>
+                <Link href="https://github.com/cybprom/Kuda">
+                  <button className="HeroButtonClass text-white border-white">
+                    Repo
+                  </button>
+                </Link>
+              </div>
+              {/* <div className="flex items-center justify-center">
+                <span className="font-bolc text-sm md:text-xl animate-pulse">
+                  Swipe
+                </span>{" "}
+                <ArrowRightIcon className="h-3 w-6" />
+              </div> */}
             </div>
           </div>
         </div>
