@@ -16,7 +16,7 @@ export default function Header() {
       <motion.div
         initial={{ x: -500, opacity: 0, scale: 0.5 }}
         animate={{ x: 0, opacity: 1, scale: 1 }}
-        transition={{ duration: 1.5 }}
+        transition={{ duration: 0.9 }}
         className="flex flex-row items-center gap-x-1"
       >
         {/* {socials.map((social) => (
@@ -55,7 +55,7 @@ export default function Header() {
         <motion.div
           initial={{ x: 500, opacity: 0, scale: 0.5 }}
           animate={{ x: 0, opacity: 1, scale: 1 }}
-          transition={{ duration: 1.5 }}
+          transition={{ duration: 1.2 }}
           className="flex flex-row items-center justify-center text-gray-400 cursor-pointer gap-x-3"
         >
           <ChatBubbleLeftIcon className="text-gray-400 h-5 w-5 mt-4 md:mt-0" />
