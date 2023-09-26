@@ -69,9 +69,12 @@ export default async function Hero() {
               <Link href="#skills">
                 <button className="HeroButtonClass">skills</button>
               </Link>
-              <Link href="#experience">
-                <button className="HeroButtonClass">Experience</button>
+              <Link href="#projects">
+                <button className="HeroButtonClass">Project</button>
               </Link>
+              {/* <Link href="#experience">
+                <button className="HeroButtonClass">Experience</button>
+              </Link> */}
             </div>
           </div>
         </div>

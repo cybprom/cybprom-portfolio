@@ -33,7 +33,7 @@ function Projects() {
           <div className="space-y-10 px-0 md:px-10 max-w-6xl font-Montserrat">
             <h4 className="text-xl text-center font-semibold">
               <span className="underline decoration-[#F7AB0A]/50 ">
-                Project 1 of 2
+                Project 1 of 3
               </span>
               : Movie Discovery
             </h4>
@@ -71,7 +71,7 @@ function Projects() {
           <div className="space-y-10 px-0 md:px-10 max-w-6xl font-Montserrat">
             <h4 className="text-xl text-center font-semibold">
               <span className="underline decoration-[#F7AB0A]/50 ">
-                Project 2 of 2
+                Project 2 of 3
               </span>
               : Kuda MFB Clone
             </h4>
@@ -99,6 +99,43 @@ function Projects() {
                   </button>
                 </Link>
                 <Link href="https://github.com/cybprom/Kuda">
+                  <button className="HeroButtonClass text-white border-white">
+                    Repo
+                  </button>
+                </Link>
+              </div>
+              <div className="flex items-center justify-center">
+                <span className="font-bolc text-sm md:text-xl animate-pulse">
+                  Swipe
+                </span>{" "}
+                <ArrowRightIcon className="h-3 w-6" />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className=" mt16 mt-28 w-screen flex-shrink-0 flex snap-center flex-col space-y-5 items-center p-3 lg:p-20  justify-center md:p-44 h-screen">
+          <div className="space-y-10 px-0 md:px-10 max-w-6xl font-Montserrat">
+            <h4 className="text-xl text-center font-semibold">
+              <span className="underline decoration-[#F7AB0A]/50 ">
+                Project 3 of 3
+              </span>
+              : Image Gallery
+            </h4>
+            <p className="text-sm lg:text-lg text-center md:text-left tracking-tight  leading-[24px] md:leading-[40px]">
+              An Image Gallery built with NextJs, TailwindCSS and NextAuth for
+              Authentication. It has a Working Search Funtionality to search for
+              image based on their ID.
+            </p>
+
+            <div className="pt-5 flex justify-between ">
+              <div className="lg:flex lg:gap-x-2 md:gap-x-6">
+                <Link href="https://promise-image-gallery.vercel.app/">
+                  <button className="HeroButtonClass text-white border-white">
+                    Demo
+                  </button>
+                </Link>
+                <Link href="https://github.com/cybprom/image-gallery">
                   <button className="HeroButtonClass text-white border-white">
                     Repo
                   </button>
