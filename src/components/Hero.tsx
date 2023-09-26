@@ -53,7 +53,8 @@ export default async function Hero() {
           ></Image>
           <h1 className="text-2xl lg:text-3xl font-semibold px-4 lg:px-8 mt-3">
             {/* <Typewriter name={pageinfo?.name} role={pageinfo?.role} /> */}
-            Akintunde Ilerioluwa
+            <Typewriter />
+            {/* Akintunde Ilerioluwa */}
           </h1>
 
           <div className="z-20">

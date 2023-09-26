@@ -3,7 +3,7 @@ import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 type Props = { name: string; role: string };
 
-export default function Typewriter({ name, role }: Props) {
+export default function Typewriter() {
   const [text, count] = useTypewriter({
     words: [
       `Hi My name is Akintunde Ilerioluwa `,
