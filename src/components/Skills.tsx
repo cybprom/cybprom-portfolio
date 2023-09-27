@@ -30,14 +30,14 @@ export default function Skills() {
         </p>
       </div>
 
-      <div className="mt-6 grid grid-cols-2 lg:grid-cols-3 gap-5 space-y-5 mb-32">
+      <div className="mt-6 grid grid-cols-2 lg:grid-cols-3 gap-3 space-y5 mb-32">
         {/* {skill.map((skill) => (
           <Skilltool key={skill._id} skill={skill} />
         ))} */}
         <div className="group relative flex cursor-pointer">
           <motion.div className="rounded-full  h20 w20 lg:h-40 lg:w-45 filter group-hover:grayscale transition duration-300 ease-in-out">
             <Image
-              src="/TailwindLogo.png"
+              src="/tailwindLarge.webp"
               className="h-full w-full  object-cover "
               alt="skillset"
               height={100}
@@ -55,7 +55,7 @@ export default function Skills() {
         <div className="group relative flex cursor-pointer">
           <motion.div className="rounded-full  h20 w20 lg:h-40 lg:w24 filter group-hover:grayscale transition duration-300 ease-in-out">
             <Image
-              src="/NextjsLogo.png"
+              src="/nextjsLogo.webp"
               className="h-full w-full  object-cover "
               alt="skillset"
               height={100}
@@ -91,7 +91,7 @@ export default function Skills() {
         <div className="group relative flex cursor-pointer">
           <motion.div className="rounded-full  h20 w20 lg:h-40 lg:w24 filter group-hover:grayscale transition duration-300 ease-in-out">
             <Image
-              src="/CSS3Logo.png"
+              src="/cssLogo.webp"
               className="h-full w-full  object-cover "
               alt="skillset"
               height={100}
@@ -127,7 +127,7 @@ export default function Skills() {
         <div className="group relative flex cursor-pointer">
           <motion.div className="rounded-full  h20 w20 lg:h-40 lg:w24 filter group-hover:grayscale transition duration-300 ease-in-out">
             <Image
-              src="/javascriptLogo.png"
+              src="/jsLarge.webp"
               className="h-full w-full  object-cover "
               alt="skillset"
               height={100}

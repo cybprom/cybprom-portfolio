@@ -9,7 +9,7 @@ import Cursor from "@/components/Cursor";
 // import { getPageInfo } from "./lib/fetchpageinfo";
 // import { getsocials } from "./lib/fetchSocials";
 // import { getExperience } from "./lib/fetchExperience";
-// import Experiences from "@/components/Experiences";
+import Experiences from "@/components/Experiences";
 // import { getskills } from "./lib/fetchskills";
 import Skills from "@/components/Skills";
 import Projects from "@/components/Projects";
@@ -41,6 +41,7 @@ export default async function Home() {
       {/* experience */}
       <section id="experience" className="snap-center">
         {/* <Experiences experience={experience} /> */}
+        <Experiences />
       </section>
       {/* skills */}
       <section id="skills" className="snap-start">

@@ -24,21 +24,28 @@ export default async function Hero() {
         <h1
           className={`font-neu font-extrabold leading-none xl:text-[110px] lg:text-[80px] md:text-[64px] sm:text-[50px] mb-[20px] text-[42px] `}
         >
-          {/* <span> {pageinfo?.role.split(" ")[0]} </span> */}
           <span>Frontend</span> <br />
           <br className="sm:hidden 2xlinline font-extrabold" />
           {/* {pageinfo?.role.split(" ")[1]} */}
           Developer
         </h1>
-        <Link
-          href="#projects"
-          className="flex lg:w-1/2 lg:ml-12 items-center  justify-center "
-        >
-          <span className="font-bolc text-sm md:text-xl animate-pulse">
-            check out my work
-          </span>{" "}
-          <ArrowRightIcon className="h-3 w-6" />
-        </Link>
+        <div className="flex items-center justifycenter flex-col lg:flex-row lg:justify-around lg:mxauto lg:ml-[10%] lg:mt-5 space-y-7 lg:space-y-0">
+          <Link
+            href="https://drive.google.com/file/d/1_TV6iuFTd9dn-vzsWMQsge5KPgS9Idbs/view?usp=drivesdk"
+            className="HeroButtonClass text-white border-white text-base"
+          >
+            Download Resume
+          </Link>
+          <Link
+            href="#projects"
+            className="flex lg:w-1/2 lg:ml-12 items-center  justify-center "
+          >
+            <span className="font-bolc text-sm md:text-xl animate-pulse">
+              check out my work
+            </span>{" "}
+            <ArrowRightIcon className="h-3 w-6" />
+          </Link>
+        </div>
       </div>
 
       <div className="w-full flex items-start justify-center">
@@ -46,7 +53,7 @@ export default async function Hero() {
           <BackgroundCircles />
           <Image
             className="relative h-56 w-56 mx-auto rounded-xl object-cover"
-            alt="ilerioluwa pciture"
+            alt="ilerioluwa picture"
             width={1000}
             height={1000}
             src="/ilerioluwa.jpg"
